@@ -17,7 +17,8 @@
     "url": "https://github.com/upalatucci/nmstate-ts/issues"
   },
   "homepage": "https://github.com/upalatucci/nmstate-ts#readme",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "crdtoapi": "^0.0.7"
   }
 }
