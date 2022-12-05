@@ -1,0 +1,23 @@
+{
+  "name": "@types/nmstate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate": "./download-nmstate-crds.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/upalatucci/nmstate-ts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/upalatucci/nmstate-ts/issues"
+  },
+  "homepage": "https://github.com/upalatucci/nmstate-ts#readme",
+  "dependencies": {
+    "crdtoapi": "^0.0.7"
+  }
+}
