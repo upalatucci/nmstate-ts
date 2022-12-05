@@ -16,3 +16,4 @@ npx openapi-generator-cli generate -g typescript-fetch --skip-validate-spec -o .
 find ./models -printf "%P\n" | sed '1d' | sed -e 's/^/export * from ".\//' | sed -e 's/\.ts$/";/' > ./models/index.ts
 
 echo "export * from './custom-models';" >> index.ts
+echo "export * from './console-models';" >> index.ts

@@ -17,7 +17,9 @@
     "url": "https://github.com/upalatucci/nmstate-ts/issues"
   },
   "homepage": "https://github.com/upalatucci/nmstate-ts#readme",
-  "dependencies": {},
+  "dependencies": {
+    "@openshift-console/dynamic-plugin-sdk": "^0.0.18"
+  },
   "devDependencies": {
     "crdtoapi": "^0.0.7"
   }
