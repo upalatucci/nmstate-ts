@@ -1,0 +1,6 @@
+component: Kubevirt UI shared API
+
+approvers:
+  - upalatucci
+reviewers:
+  - upalatucci

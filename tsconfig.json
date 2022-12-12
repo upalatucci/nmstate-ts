@@ -13,7 +13,6 @@
     "baseUrl": ".",
     "noEmit": true,
     "forceConsistentCasingInFileNames": true,
-    "outDir": "temp",
   },
   "exclude": ["**/node_modules"]
 }
