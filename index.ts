@@ -3,4 +3,3 @@
 export * from './runtime';
 export * from './models';
 export * from './custom-models';
-export * from './console-models';
