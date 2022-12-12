@@ -1,4 +1,4 @@
-import { NodeNetworkConfigurationInterfaceIPV4Address } from "./NodeNetworkConfigurationInterfaceIPV4Address";
+import { NodeNetworkConfigurationInterfaceIPV4Address } from './NodeNetworkConfigurationInterfaceIPV4Address';
 
 export interface NodeNetworkConfigurationInterfaceIPV4 {
   enabled: boolean;

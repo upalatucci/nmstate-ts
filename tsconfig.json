@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "noUnusedLocals": true,
+    "baseUrl": ".",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "outDir": "dist",
+    "target": "es2016",
+    "lib": ["es2016", "es2019", "es2020.promise", "dom", "dom.iterable"],
+    "jsx": "react",
+    "allowJs": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+  },
+  "include": ["./kubevirt", "./console", "./kubernetes", "./containerized-data-importer"],
+  "exclude": ["**/node_modules", "**/dist"]
+}

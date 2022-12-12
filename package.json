@@ -1,16 +1,26 @@
 {
-  "name": "@types/nmstate",
+  "name": "nmstate-ts",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "keywords": [
+    "kubernetes",
+    "nmstate",
+    "openapi",
+    "typescript",
+    "openshift",
+    "openshift-console"
+  ],
   "scripts": {
-    "generate": "./download-nmstate-crds.sh"
+    "generate": "./download-nmstate-crds.sh",
+    "build": "tsc .",
+    "lint": "eslint .  --color",
+    "lint:fix": "yarn lint --fix"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/upalatucci/nmstate-ts.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
@@ -21,6 +31,16 @@
     "@openshift-console/dynamic-plugin-sdk": "^0.0.18"
   },
   "devDependencies": {
-    "crdtoapi": "^0.0.7"
+    "@typescript-eslint/eslint-plugin": "^5.46.0",
+    "@typescript-eslint/parser": "^5.46.0",
+    "crdtoapi": "^0.0.7",
+    "eslint": "^8.29.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-simple-import-sort": "^8.0.0",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "prettier": "^2.8.1",
+    "tsc": "^2.0.4",
+    "typescript": "^4.9.4"
   }
 }
