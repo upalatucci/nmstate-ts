@@ -1,4 +1,4 @@
-component: Kubevirt UI shared API
+component: NMState typescript types
 
 approvers:
   - upalatucci
